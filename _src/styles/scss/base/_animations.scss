@@ -140,16 +140,13 @@
   }
 
   .kids,
-  .db-logo {
+  .db-logo,
+  .bs-hoodie {
     display: none;
   }
 
   .boris {
     display: block;
-  }
-
-  .bg {
-    fill: #65c9ff;
   }
 
   .shirt {
@@ -165,10 +162,6 @@
     .boris {
       display: none;
     }
-
-    .bg {
-      fill: #293324;
-    }
   }
 
   .web & {
@@ -178,6 +171,17 @@
 
     .shirt {
       fill: #1a252f;
+    }
+  }
+
+  .citoyen &,
+  .citizen & {
+    .bs-shirt {
+      display: none;
+    }
+
+    .bs-hoodie {
+      display: block;
     }
   }
 }
